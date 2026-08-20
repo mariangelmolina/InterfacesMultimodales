@@ -9,7 +9,7 @@ image = Image.open('DSC00365.JPG')
 st.image(image, caption='Interfaces multimodales')
 
 texto = st.text_input('hi again', 'again')
-st.write('el texto es:'texto)
+st.write('el texto es:', texto)
 
 st.subheader("ahora usemos 2 columnas")
 
